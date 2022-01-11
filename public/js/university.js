@@ -23,7 +23,9 @@ let day=weeks[d.getDay()];
 current_day.innerText=day;
 todays_date.innerText=`${date+" "+month}`;
 
-let api="https://universities.hipolabs.com/search?country=india";
+// let api="https://universities.hipolabs.com/search?country=india";
+let api="https://raw.githubusercontent.com/Hipo/university-domains-list/master/world_universities_and_domains.json";
+
 
 
 let x=search_university.value;
@@ -38,6 +40,7 @@ const getData= async(event)=> {
                     data.then((value)=>{
 
                                 value.map((items)=>{
+                                        console.log(items.name);
                                                 const name=(items.name).replace(/\s+/g, ''); 
                                                 let s1 = name.toUpperCase();
                                                 let x=search_university.value;
