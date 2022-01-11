@@ -40,7 +40,7 @@ const getData= async(event)=> {
                     data.then((value)=>{
 
                                 value.map((items)=>{
-                                        console.log(items.name);
+                                        // console.log(items.name);
                                                 const name=(items.name).replace(/\s+/g, ''); 
                                                 let s1 = name.toUpperCase();
                                                 let x=search_university.value;
