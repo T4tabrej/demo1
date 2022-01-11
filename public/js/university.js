@@ -23,7 +23,7 @@ let day=weeks[d.getDay()];
 current_day.innerText=day;
 todays_date.innerText=`${date+" "+month}`;
 
-let api="https://universities.hipolabs.com/search?country=india";
+let api="http://universities.hipolabs.com/search?country=india";
 
 
 let x=search_university.value;
