@@ -43,7 +43,7 @@ const getInfo=async(event)=>{
             // const response=await fetch(url);
             const response =await fetch(api);
             const data=response.json();
-            // console.log(data);
+            console.log(data);
          data.then((value)=>{
              const temp_deg=(value.main.temp)-273.15;
              const tem_mood=value.weather[0].main;
