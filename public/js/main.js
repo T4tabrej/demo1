@@ -39,7 +39,8 @@ const getInfo=async(event)=>{
     } 
     else {
         try {
-            let api=`http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&appid=${apiId}`;
+            // let api=`http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&appid=${apiId}`;
+            let api= "http://api.openweathermap.org/data/2.5/weather?lat=32.22&lon=-100.50&APPID=c6fdcf2d49a0bba3e14f310bd3d5cdc2";
             // const response=await fetch(url);
             const response =await fetch(api);
             const data=response.json();
