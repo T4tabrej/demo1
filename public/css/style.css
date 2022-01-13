@@ -264,7 +264,7 @@ padding: 2rem;
 
   /* responsive code  */
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .main_header_left {
       height: auto;
       margin: 5rem 0;
