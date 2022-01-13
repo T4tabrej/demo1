@@ -276,10 +276,10 @@ padding: 2rem;
     }
   
     .temp_form {
-      width: auto;
+      width: 100%o;
     }
     .tempInformation {
-      width:100%;
+      width: auto;
     }
   
     .main_layer .middle_layer p,
