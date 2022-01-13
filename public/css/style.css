@@ -261,3 +261,30 @@ padding: 2rem;
     visibility: hidden;
     transition: all 0.3s linear;
   }
+
+  /* responsive code  */
+
+@media (max-width: 768px) {
+    .main_header_left {
+      height: auto;
+      margin: 5rem 0;
+    }
+  
+    .main_header_right {
+      height: auto;
+      margin-top: 3rem;
+    }
+  
+    .temp_form {
+      width: auto;
+    }
+    .tempInformation {
+      width: auto;
+    }
+  
+    .main_layer .middle_layer p,
+    .main_layer .middle_layer .fa {
+      font-size: 5rem;
+      font-weight: 900;
+    }
+  }
